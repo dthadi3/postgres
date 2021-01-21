@@ -1,4 +1,5 @@
-arch: ppc64le
+arch: 
+  - ppc64le
 script:
   - ./configure
   - make
