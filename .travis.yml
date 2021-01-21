@@ -1,0 +1,5 @@
+arch: ppc64le
+script:
+  - ./configure
+  - make
+  - sudo make install
