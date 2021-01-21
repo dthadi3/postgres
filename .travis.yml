@@ -1,5 +1,8 @@
 arch: 
+  - amd64
   - ppc64le
+dist: xenial
+os: linux
 script:
   - ./configure
   - make
